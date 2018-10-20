@@ -1,0 +1,15 @@
+{
+    "name": "chesnutcase/composer-publisher",
+    "description": "Publish Github releases of your Composer projects with one command",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chesnutcase",
+            "email": "chester8991@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.1"
+    }
+}
