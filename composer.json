@@ -2,6 +2,7 @@
     "name": "chesnutcase/composer-publisher",
     "description": "Publish Github releases of your Composer projects with one command",
     "type": "composer-plugin",
+    "version": "dev-master",
     "license": "MIT",
     "authors": [
         {
@@ -11,5 +12,13 @@
     ],
     "require": {
         "composer-plugin-api": "^1.1"
+    },
+    "extra": {
+        "class": "chesnutcase\\ComposerPublisher\\ComposerPublisher"
+    },
+    "autoload": {
+        "psr-4": {
+          "chesnutcase\\ComposerPublisher\\": ""
+        }
     }
 }
